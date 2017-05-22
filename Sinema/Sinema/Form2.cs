@@ -41,6 +41,7 @@ namespace Sinema
                         for (int j = 0; j < cinema.placesArrSecond.Count; j++)
                         {
                             cinema.myButton[cinema.placesArrSecond[j]-1].BackColor = Color.Red;
+
                         }
                     }
                     
