@@ -78,6 +78,8 @@ namespace Sinema
                     }
                 }
 
+                places_.Sort();
+
                 for (int i = 0; i < places_.Count; i++)
                 {
                     if (i < places_.Count - 1)
